@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = () => {
     return (
-        <div className="flex flex-col lg:flex-row max-w-6xl mx-auto p-4 sm:p-6 gap-6 bg-black rounded-lg shadow-lg text-gray-300">
+        <section id="work" className="flex flex-col lg:flex-row max-w-6xl mx-auto p-4 sm:p-6 gap-6 bg-black rounded-lg shadow-lg text-gray-300">
             {/* Left side: video */}
             <div className="w-full lg:w-1/2 rounded-lg overflow-hidden bg-gray-900 shadow-lg">
                 <video
@@ -75,7 +75,7 @@ const Project = () => {
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -1,9 +1,9 @@
 export default function Contact() {
     return (
-        <div
+        <section id="contact"
             className="bg-gray-900  mx-auto px-4 py-12 sm:px-6 md:px-12 lg:px-20 xl:px-32 flex justify-center items-start"
             style={{
-                backgroundImage: `url('https://media.istockphoto.com/id/1402922016/photo/crack-in-the-cement-wall-a-gray-concrete-wall-floor-natural-cement-or-stone-old-material-use.jpg?s=612x612&w=0&k=20&c=crpIOE1TSECZhRY4w0j2yTyF1atHYFnm37rSjkYRDUw=')`,
+                backgroundImage: `url('https://media.istockphoto.com/id/92179690/photo/crack-on-yellow-wall.jpg?s=612x612&w=0&k=20&c=NWRV9hhUsbxJBzlBVLQJLDgOsP0aSyq8kWPx8jCKFLA=')`,
                 backgroundRepeat: 'repeat',
                 backgroundSize: 'auto',
                 backgroundColor: '#0f0f0f',
@@ -76,8 +76,12 @@ export default function Contact() {
 
             </div>
             <div className="fixed  flex bottom-2 left-2 gap-2 ">
+               
                 <a href="https://github.com/Harsh121002"  target="_blank" className="bg-white rounded-lg cursor-pointer"><img src="https://cdn1.iconfinder.com/data/icons/picons-social/57/github_rounded-128.png" className="w-10" /></a>
-                <a href="https://www.linkedin.com/in/harsh-virani-hh121002/"  target="_blank" className="bg-white rounded-lg cursor-pointer"><img src="https://cdn3.iconfinder.com/data/icons/social-round-corner/512/linkdin__social_media_logo-128.png" className="w-10" /></a></div>
-        </div>
+                <a href="https://www.linkedin.com/in/harsh-virani-hh121002/"  target="_blank" className="bg-white rounded-lg cursor-pointer"><img src="https://cdn3.iconfinder.com/data/icons/social-round-corner/512/linkdin__social_media_logo-128.png" className="w-10" /></a>
+                
+                </div>
+            
+        </section>
     );
 }

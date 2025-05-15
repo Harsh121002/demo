@@ -9,7 +9,7 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col justify-center items-center text-center px-4 relative overflow-hidden">
+    <section id="home" className="min-h-screen bg-black text-white flex flex-col justify-center items-center text-center px-4 relative overflow-hidden">
       {/* Greeting */}
       <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">
         Hi, I am <span className="text-yellow-400">Harsh 👋</span>
@@ -57,7 +57,7 @@ const Home = () => {
           className="w-full h-full object-contain"
         />
       </div>
-    </div>
+    </section>
   );
 };
 
