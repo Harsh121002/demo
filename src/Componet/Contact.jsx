@@ -3,7 +3,7 @@ export default function Contact() {
         <div
             className="bg-gray-900  mx-auto px-4 py-12 sm:px-6 md:px-12 lg:px-20 xl:px-32 flex justify-center items-start"
             style={{
-                backgroundImage: `url('https://media.istockphoto.com/id/92179690/photo/crack-on-yellow-wall.jpg?s=612x612&w=0&k=20&c=NWRV9hhUsbxJBzlBVLQJLDgOsP0aSyq8kWPx8jCKFLA=')`,
+                backgroundImage: `url('https://media.istockphoto.com/id/1402922016/photo/crack-in-the-cement-wall-a-gray-concrete-wall-floor-natural-cement-or-stone-old-material-use.jpg?s=612x612&w=0&k=20&c=crpIOE1TSECZhRY4w0j2yTyF1atHYFnm37rSjkYRDUw=')`,
                 backgroundRepeat: 'repeat',
                 backgroundSize: 'auto',
                 backgroundColor: '#0f0f0f',
